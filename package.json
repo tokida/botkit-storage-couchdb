@@ -1,0 +1,29 @@
+{
+  "name": "botkit-storage-couchdb",
+  "version": "1.0.0",
+  "description": "A CouchDB storage driver for Botkit",
+  "main": "lib/storage.js",
+  "scripts": {
+    "test": "node lib/storage_spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbarlock/botkit-storage-couchdb.git"
+  },
+  "keywords": [
+    "botkit",
+    "couchdb"
+  ],
+  "author": "barlockm@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mbarlock/botkit-storage-couchdb/issues"
+  },
+  "homepage": "https://github.com/mbarlock/botkit-storage-couchdb#readme",
+  "dependencies": {
+    "nano": "^6.2.0"
+  },
+  "devDependencies": {
+    "unit.js": "^2.0.0"
+  }
+}
