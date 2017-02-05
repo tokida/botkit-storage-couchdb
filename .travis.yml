@@ -1,15 +1,15 @@
 language: node_js
 node_js:
-  - 6.9.4
+- 6.9.4
 services:
-  - couchdb
+- couchdb
 before_script:
-  - curl -X PUT localhost:5984/botkit
+- curl -X PUT localhost:5984/botkit
 deploy:
   provider: npm
   email: barlockm@gmail.com
-  api_key:
-    secure: XfxcXQvUIlDRiPvKNxsoL3sOEALcDd9uY6FR6TQls3C8nR8+Ocq/WfLYhG53J5Tl0E8EsG/2a9HVTT0+k1RG9bDSthM8ztRm9Y/Fi4ZqN4Wn5BfepOUl24SPqwmG/48w/Wu/cn3wOFEu5h7Y3iiTkcyk5hwJr54THKMH7J313KU=
   on:
     tags: true
     branch: master
+  api_key:
+    secure: ZxEVPdD5c8eWaOQ19xm8uqiyZqN1Km31VuPKrPebmbWZWvWconyny3+pDevJczRpIVmUeCD37H/DL922bpLS3XmLO3N8N77HOzd9qmHl64lOARMoLNZ6oVkktjG9KNLSqRJSoK5Qc0f+G1Vy5CtpegVivEBOXUYWpc3ARncOmu1noNKhdM+bVjaY8ToWH/+BGb+1IhWf7vNqqQTjObqXcSFjjV5nC+jLzyGP8Dta2l1eOUXvKq4OAf6PNMwhvWw07WPn3JIL6s1aG1B8jLdGsRh/l1anOUZpVyeWr2ejvgn6ddfKdIGtG2gprWf4Jtf6QwW9/myxdDbYEOnggroSmKMIPdCNTTIZ+vgcajplg0StVDkhIHtpKnIPK/10KBQaqeiWbnWZ/4W2Jf9tmx2Kait/wbEUyXHRkNJXe0OliEqG+gNBG0DSaaGrLIcgQZSrwkkD844ciUDERN2iYUv4BHm88SZyzVSP6vdapfjJpyIVYZxnE1v+ycNdkvF5ncmWZ3RnxFvWhWdoj71L2vIPdHEhWKATu1lJIL6jGSCj4EyHvXjVuCaTP6EF+soyGEtjwxkstcwzjwRO1HGBarLrnc05IM4ozG/glbztX2ctsWdP65GmlUNQNP0pgpqmp1BLBMAH+gMz8FYwwzjwfZrwGmMP74xeG+vzYahTZ7zyrho=
